@@ -13,8 +13,7 @@ def busqueda_binaria(dato):
          
 def buscar(dato):
     if busqueda_binaria(dato) == None:
-         return "El dato %d no se encuentra"
-    else:
+         return "El dato %d no se encuentra"%(dato)
          return "El dato %d se encuentra en el indice: %d " %(dato, busqueda_binaria(dato))
 
 
