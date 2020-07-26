@@ -1,4 +1,5 @@
 class Pila():
+    
  def __init__(self, size):
      self.lista = []
      self.tope = 0
@@ -11,9 +12,9 @@ def empty(self):
           return False
 
 def push(self, dato):
-    if self.tope<self.size:
-        self.lista +=[dato]
-        self.tope +=1
+    if self.tope < self.size:
+        self.lista += [dato]
+        self.tope += 1
     else:
         prin("La pila está llena")
 def pop(self):
@@ -29,5 +30,4 @@ def Size(self):
     return self.tope
 def Top(self):
     return self.lista[-1]                                
-             
-        
+

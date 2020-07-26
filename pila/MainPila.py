@@ -1,8 +1,7 @@
-from pila import Pila
+from Pila import Pila
 
-pila = Pila[5]
-
-pila.push[55]
-pila.push[90]
-pila.push[45]
-pila.show()
+Pila = Pila(5)
+Pila.push(55)
+Pila.push(90)
+Pila.push(45)
+Pila.show()
